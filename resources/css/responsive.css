@@ -1,0 +1,149 @@
+/* esm Device */
+/* @media screen and (min-width: 300px) and (max-width: 580px){
+
+} */
+/* sm device */
+/* @media screen and (min-width: 581px) and (max-width: 980px){
+
+} */
+/* md screen */
+/* @media screen and (min-width: 981px) and (max-width: 1140px){
+    
+} */
+
+
+
+
+
+
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1100px) {
+  .container{width: 90%;}
+  .pricing-options {flex-wrap: wrap;}
+  .single-price-card {flex-basis: 30%;}
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container{width: 90%;}
+  .hero-area-left h1 {font-size: 25px;}
+  .hero-area-left {flex-basis: 44%;}
+  .social-text h3::before {display: none;}
+  .tab-section-content {flex-flow: wrap;align-items: center;}
+  .tab-buttons {flex-basis: 100%;text-align: center;}
+  .tab-buttons {flex-basis: 100%;text-align: center;margin-bottom: 30px;}
+  .tab-section-text h2 {margin-bottom: 20px;}
+  #tab-section {padding: 85px 0 85px 0;}
+  .tab-buttons .tabs {padding: 35px 55px;}
+  .sub-list-img {flex-basis: 50%;}
+  .sm-title {margin-top: 22px;}
+  #sub-list-section {padding: 85px 0 85px 0;}
+  #standard-picture {padding: 85px 0 85px 0;}
+  .section-title h3::before {left: 40%;}
+  #pricing-options {padding: 85px 0 80px 0;}
+  .pricing-options {flex-wrap: wrap; justify-content: center;}
+  .single-price-card {flex-basis: 60%; margin-bottom: 30px;}
+  .pricing-options .single-price-card:nth-child(3){margin-bottom: 0;}
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .container{width: 90%;}
+  .inner_nav {padding: 15px 0;}
+  .mean-container .mean-bar {width: 100%;position: absolute;background: none;right: 10px;top: 8px;}
+  .mean-container .mean-nav {width: 100%;background: var(--carbon_color);margin-top: 48px;}
+  .mean-container .mean-nav ul li a{width: 100%;}
+  .hero_area {padding: 50px 0 50px 0;}
+  .social-text h3::before {display: none;}
+  .hero-area-left {flex-basis: 100%;}
+  .hero-area-right .hero-form {width: 100%;margin-top: 20px;}
+  .hero-area-left h1 {margin: 20px 0 24px 0; font-size: 26px;}
+  .social-text {flex-basis: 100%;}
+  .tab-section-text {flex-basis: 100%;}
+  .tab-section-img {display: none;}
+  .social-icon {flex-basis: 100%;margin-top: 20px;}
+  .tab-section-content {flex-flow: wrap;align-items: center;}
+  .tab-buttons {flex-basis: 100%;text-align: center;}
+  .tab-buttons {flex-basis: 100%;text-align: center;margin-bottom: 30px;}
+  .tab-section-text h2 {margin-bottom: 20px;}
+  #tab-section {padding: 50px 0 50px 0;}
+  .tab-buttons .tabs {padding: 15px 20px;}
+  .sub-list-content {flex-direction: column;}
+  #sub-list-section {padding: 50px 0 50px 0;}
+  #why-awesome {padding: 50px 0;}
+  .sm-title {margin-top: 24px;}
+  .standard-picture-content {flex-direction: column;}
+  #standard-picture {padding: 50px 0 50px 0;}
+  .sub-list-text h3 {padding-bottom: 18px; font-size: 20px;}
+  .sub-list-text p {margin-top: 10px;}
+  .section-title h3 {padding-bottom: 20px;font-size: 26px;}
+  .section-title h3::before {left: 30%;}
+  .why-awsome-contents {margin-top: 35px;}
+  .little-description p {margin-top: 20px;}
+  .section-title h3 {padding-bottom: 20px;}
+  #testimonial-section {padding: 50px 0 50px 0;}
+  .why-awsome-contents {flex-direction: column;}
+  .single-content {margin-bottom: 30px;}
+  .single-content h5 {margin: 15px 0;}
+  .single-content p {line-height: 20px;}
+  .why-awsome-contents .single-content:nth-child(1) {margin-top: 20px;}
+  .why-awsome-contents .single-content:nth-child(3) {margin-bottom: 0;}
+  #pricing-options {padding: 50px 0 50px 0;}
+  .pricing-options {flex-wrap: wrap; justify-content: center; margin-top: 50px;}
+  .single-price-card {flex-basis: 100%;margin-bottom: 30px;}
+  .section-title h3 {font-size: 22px;}
+  .form-content {flex-wrap: nowrap;flex-direction: column;}
+  .form-button {margin-top: 30px;}
+  #contact-us {padding: 50px 0 50px 0;}
+  .social-icon {justify-content: space-evenly;flex-wrap: wrap;}
+  .social-icon a{padding: 12px;font-size: 38px;}
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .mean-container .mean-bar {width: 60%;position: absolute;background: none;right: 10px;top: 8px;}
+  .social-text {flex-basis: 100%;}
+  .social-icon {flex-basis: 100%;margin-top: 20px;}
+  .tab-buttons .tabs {padding: 35px 55px;}
+  .sub-list-text p {margin-top: 24px;}
+  .sub-list-text h3 {padding-bottom: 18px; font-size: 26px;}
+  .section-title h3::before {left: 40%;}
+  .single-price-card {flex-basis: 60%; margin-bottom: 30px;}
+  #tab-section {padding: 85px 0 85px 0;}
+  .tab-buttons .tabs {padding: 15px 32px;}
+  .section-title h3 {font-size: 26px;}
+  .hero-area-left h1 {font-size: 36px;}
+  .tab-btn {margin-top: 20px;}
+  .social-text h3::before {display: none;}
+  
+}
+
+
+/* retina query */
+@media only screen and (-webkit-min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min--moz-device-pixel-ratio:2) and (max-width:991.98px),only screen and (-o-min-device-pixel-ratio:2/1) and (max-width:991.98px),only screen and (min-device-pixel-ratio:2) and (max-width:991.98px),only screen and (min-resolution:192dpi) and (max-width:991.98px),only screen and (min-resolution:2dppx) and (max-width:991.98px){
+
+.logo .standard-logo{
+  display: none;
+}
+.logo .retina-logo{
+  display: inline-block;
+}
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){
+  .logo .standard-logo{
+    display: none;
+  }
+  .logo .retina-logo{
+    display: inline-block;
+  }
+}
